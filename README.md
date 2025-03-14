@@ -21,12 +21,81 @@ Blank cells/no-data are indicated in the txt with -9999.
 
 The quality flag schema used is as follows: 
 Quality flags 0, 1 and 2 usually indicate good data; quality flag of 6 typically denotes an average value.  All other flags indicate missing (= 9), bad (= 4) or questionable (= 3) data.  
-
 However, the final data set does not include flags as all data is presumed "good." 
 
 ## Locations of Data 
 
 how many entries, stations, flags. 
+
+Codispoti
+	
+Cooper_d18O_Nuts_1987_99
+	
+GEOTRACES 2015
+
+Hydrochemical Atlas (do NOT include in definition of ‘accepted conc. ranges’)
+
+IOS_TADIC
+
+LSSL 2003 (compares well with AOS 2005, use as reference for other LSSL cruises & Mirai data)
+
+LSSL 2004
+
+LSSL 2005
+	
+
+LSSL 2007
+	
+
+LSSL 2009
+
+LSSL 2010
+
+LSSL 2011
+
+LSSL 2012
+
+LSSL 2013
+
+LSSL 2014
+
+LSSL 2016
+	
+LSSL 2017
+
+Mirai 1998
+
+Mirai 1999
+
+Mirai 2000
+
+Mirai 2002
+	
+Mirai 2004
+
+Mirai 2006
+
+Mirai 2008
+
+Mirai 2009
+
+Mirai 2010
+	
+Mirai 2012
+
+Mirai 2013
+
+NABOS 2005-2009
+
+NABOS 2015
+
+d18O Database
+	
+SWL d18O
+
+Switchyard
+
+NOTE:  Outliers removed from CCHDO data sets without recording notes here!
 
 ## Downloadable data types and how to read them 
 
@@ -36,7 +105,8 @@ The .txt file is headerless, but can be read:
 
 Into Matlab:
 
-```matlab
+
+``` matlab
 readf,1,iyr,imo,ida,sla,slo,p,t,s,o2,sd,o2d,po4,ni,si,dic,ta,d18o,idc,ids1,ids2,npr,pno,no,po,o2sat,po2sat,fpw,sim,mw,pac,aw   ; v4.3
 ```
 
