@@ -1,13 +1,3 @@
----
-title: "README"
-author: "Laura Whitmore"
-date: "2025-03-14"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## GEOCHEMICAL ATLAS HISTORY
 
@@ -19,6 +9,12 @@ Front. Mar. Sci. , 02 July 2020
 This original data set stops in 2018. The subsequent versions have been updated by Laura Whitmore. 
 
 ## Major Changes to the Geochemical Atlas
+
+#Removal of data: 
+Bering and Chukchi sea shelf data that is part of the ECOFOCI monitoring program has been compiled into a compendium and throughly 
+QA/QC'd by the ECOFOCI team. For this reason, we removed any duplicates with this dataset.
+
+This dataset can be found: CITATION. 
 
 ## Data Sets and their original citations 
 
