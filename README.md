@@ -25,6 +25,8 @@ However, the final data set does not include flags as all data is presumed "good
 
 ## Locations of Data 
 
+![map of arctic with stations from the Arctic Geochemical Atlas](C:/Users/lmwhi/Documents/GitHub/arcticgeochemicalatlas/AGA_v1_map.png)
+
 how many entries, stations, flags. 
 
 ## Downloadable data types and how to read them 
